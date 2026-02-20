@@ -1,9 +1,27 @@
-The proposed segmentation system is entirely automated. The brain tumor segmentation process is based on deep learning more precisely on 2D Convolutional Neural Networks. It includes the main following steps: pre-processing of the 3D-MRI data, training using a U-net architecture, and brain tumoral structures prediction.
+# Automated Brain Tumor Segmentation
+An end-to-end deep learning pipeline for fully automated brain tumor segmentation from 3D MRI scans using 2D Convolutional Neural Networks and U-Net architecture.
 
-Tools - Python, OpenCV, SimpleITK, NumPy, Git, PyTorch
+This project streamlines MRI data processing, model training, and tumor structure prediction to enable efficient and accurate medical image segmentation.
 
-• Designed and implemented a deep learning pipeline for automated brain tumor segmentation using 2D CNNs and U-Net architecture, streamlining MRI data analysis.
+## Project Overview
 
-• Performed data pre-processing, mapping, and profiling of 3D-MRI datasets to ensure high-quality input for model training.
+The proposed segmentation system is entirely automated and consists of:
 
-• Improved prediction accuracy and processing efficiency through iterative model optimization, demonstrating ability to handle large-scale healthcare imaging data.
+1. Pre-processing of 3D MRI data
+2. Training using a 2D U-Net architecture
+3. Brain tumoral structure prediction
+4. Post-processing and visualization
+5. The system is designed to handle large-scale healthcare imaging datasets while maintaining high prediction accuracy and computational efficiency.
+
+## Tech Stack
+
+- Python
+- PyTorch
+- Image Processing
+- OpenCV
+- SimpleITK
+- Data Handling
+- NumPy
+- Version Control
+- Git
+
